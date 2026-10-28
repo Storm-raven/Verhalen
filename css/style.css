@@ -1,0 +1,100 @@
+body{
+    /*background-image: url(../img/bookshelf\ img.jpg);*/
+    background-image: url(../img/proper\ bookshelf\ color.png);
+    background-size: 100vw; /* viewwidth heb ik uit feedback van Julian ontvangen */
+    background-repeat: no-repeat;
+    background-color: #ebdac0;
+}
+  
+
+h1{
+    text-align: center;
+    color: bisque;
+}
+
+nav{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 5em;
+    justify-content: center;
+}
+
+nav li{
+    margin: 2em;
+    margin-top: 25em;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+nav a{
+    font-family: perfume;
+    transition: 2s;
+}
+
+nav a:hover{
+    text-shadow: 1px 1px 1px gold;
+    border-color: gold;
+    
+}
+
+main{
+    display: flex;
+}
+
+section:first-of-type{
+    color: #3b2b24;
+    text-indent: 1em;
+    width: 50%;
+    border-right: 2px solid #3b2b24;
+    padding-right: 20px;
+}
+
+section:nth-of-type(2){
+    text-indent: 1em;
+    color: #3b2b24;
+    width: 50%;
+    padding-left: 20px;
+}
+
+section:first-of-type h2{
+    padding-bottom: 0.5em;
+}
+
+section:nth-of-type(2) h2{
+    position: absolute;
+    left: 10px;
+    top: 665px;
+    font-size: medium;
+}
+
+.history section{
+    border: none;
+    padding-left: 25%;
+}
+
+.gallery main ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.gallery main li{
+    margin: 2em;
+    padding: 2em;
+    background-color: #221614;
+    border: 15px solid goldenrod;
+    border-style: ridge; /*border-style heb ik zelf gevonden in de css*/
+}
+
+@font-face{
+    font-family: perfume;
+    src: url(../fonts/LTPerfume-2.ttf);
+}
